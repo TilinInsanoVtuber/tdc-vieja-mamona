@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+<TITLE>JavaScript index</TITLE>
+
+<script Language="JavaScript">
+
+function goback(){
+alert ("Good Bye");
+history.go(-1);
+}
+
+fuction gettheDate(){
+Todays = new Date();
+TheDate = ""+(Todays.getMonth()+1)+"/"+ Todays.getDate() +"/" + (Today.getYear()+1900)
+document.clock.thedate.value  =
+TheDate;
+}
+
+var timerID = null;
+var timerRunning = false;
+
+fuction stopclock (){
+	if(timerRunning)
+	clearTimeout(timerID);
+	timerRunning = false;
+}
+
+fuction startclock (){
+	stopclock();
+	gettheDate()
+	showtime();
+}
+
+fuction showtime() {
+	var now = new Date();
+	varhours = now.getHours();
+	var minutes = now.getMinutes();
+	var seconds = now.getSeconds()
+	var timeValue = ""+((hours>12)?
+	hours-12:hours)
+	timeValue
+}
