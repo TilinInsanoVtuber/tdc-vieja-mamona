@@ -74,3 +74,118 @@
     
         </BODY>
         </HTML>
+
+//PRIMER CODIGO
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Mi primer codigo</title>
+    </head>
+<body>
+    <script type="text/javaScript">
+        //programa que mostrara en pantalla "hola mundo"
+        //Por medio de una variable
+
+    var texto= "hola mundo"; //guardamos  en la variable texto"hola mundo"
+        alert (texto); //imprimamos en pantalla la variable texto
+    
+        </script>
+    </body>
+</html>
+
+//SEGUNDO CODIGO
+<html>
+    <body>
+        <h2>javaScript Variables</h2>
+        
+        <p>pagina que muestra los datos del alumno</p>
+        <p id="demo"></p>
+
+        <script>
+            var nombre = "Ivette";
+            var apellido = "Torres";
+            var direccion = "La presa";
+            var edad = 17;
+        
+document.getElementById("demo").innerHTML = 
+nombre + "<br>" + apellido + "<br>" + direccion + "<br>" + edad;
+
+        </script>
+    </body>
+</html>
+
+//TERCER CODIGO
+<html>
+    <title> Sumas </title>
+    <script Language = "JavaScript">
+    alert(4+4);
+</script>
+    </html>
+
+//CUARTO CODIGO
+<html>
+    <title> Sumas </title>
+    <script Language = "JavaScript">
+    alert(5+2);
+</script>
+    </html>
+
+//QUINTO CODIGO
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sumas</title>
+    <input type="text" placeholder="dame valor" id="numero1"><br><br>
+    <input type="text" placeholder="dame valor" id="numero2"><br><br>
+    <input type="text" placeholder="dame valor" id="numero3"><br><br>
+    <input type="text" placeholder="dame valor" id="numero4"><br><br>
+    <input type="button" name="name" value="presioname" onclick="sumas();">
+    </head>
+</html>
+<script type="text/javaScript">
+    function Sumas()
+    {
+        var valor1=parselnt(document.getElementById('numero1').value);
+        var valor2=parselnt(document.getElementById('numero2').value);
+        var valor3=parselnt(document.getElementById('numero3').value);
+        var valor4=parselnt(document.getElementById('numero4').value);
+   var resultado;
+   resultado=valor1+valor2+valor3+valor4;
+   alert("el valor de las suma es:"+resultado)
+    }
+    </script>
+    </body>
+    </html>
+
+//QUINTO CODIGO CON COMENTARIOS
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sumas</title>
+    
+<!--sirve para darle un valor a la variable de el lado de la pagina visible para el cliente-->
+    <input type="text" placeholder="dame valor" id="numero1"><br><br>
+    <input type="text" placeholder="dame valor" id="numero2"><br><br>
+    <input type="text" placeholder="dame valor" id="numero3"><br><br>
+    <input type="text" placeholder="dame valor" id="numero4"><br><br>
+    <input type="button" name="name" value="presioname" onclick="sumas();">
+    </head>
+</html>
+<script type="text/javaScript">
+    function Sumas()
+    {
+        var valor1=parselnt(document.getElementById('numero1').value);
+        var valor2=parselnt(document.getElementById('numero2').value);
+        var valor3=parselnt(document.getElementById('numero3').value);
+        var valor4=parselnt(document.getElementById('numero4').value);
+<!-- el valor que resivieron las variables van aqui--> 
+  var resultado;
+   resultado=valor1+valor2+valor3+valor4;
+   alert("el valor de las suma es:"+resultado)
+    }
+<!--la suma de las variables iran el la variable RESULTADO-->    
+
+    </script>
+    </body>
+    </html>
