@@ -192,8 +192,48 @@ nombre + "<br>" + apellido + "<br>" + direccion + "<br>" + edad;
 
 //codigo de arreglos
 
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <TITLE>Arreglos</TITLE>
+</head>
+</html>
+
+<p id="dato1">Tiempo seleccionado </p>
+
+<p id="dato2">meses seleccionado </p>
+
+<p id="dato3">colores seleccionado </p>
+
+<p id="dato4">materiales seleccionado </p>
+
+<p id="dato5">marcas seleccionado </p>
+
+<script type="text/javascript">
+
 var tiempo=["segundos","minutos","horas","dias","semanas","meses","años","lustros","sexion","decada"];
+
 var meses=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre"];
+
 var colores=["azul","rojo","verde","naranja","amarillo","blanco","negro","morado","cafe","gris"];
+
 var materiales=["matematicas","ingles","fisica","español","biologia","historia","geografia","educacion fisica","quimica","geometria"];
+
 var marcas=["nike","newbalance","vans","DC","supreme","gucci","lives","converse","skecher","lui buton"];
+
+var dato1=tiempo [9];
+var dato2= meses [8];
+var dato3= colores [9];
+var dato4=materiales [5];
+var dato5=marcas [3];
+
+document.getElementById("dato1").textContent += dato1
+document.getElementById("dato2").textContent += dato2
+document.getElementById("dato3").textContent += dato3
+document.getElementById("dato4").textContent += dato4
+document.getElementById("dato5").textContent += dato5
+
+
+</script>
