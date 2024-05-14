@@ -189,3 +189,11 @@ nombre + "<br>" + apellido + "<br>" + direccion + "<br>" + edad;
     </script>
     </body>
     </html>
+
+//codigo de arreglos
+
+var tiempo=["segundos","minutos","horas","dias","semanas","meses","años","lustros","sexion","decada"];
+var meses=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre"];
+var colores=["azul","rojo","verde","naranja","amarillo","blanco","negro","morado","cafe","gris"];
+var materiales=["matematicas","ingles","fisica","español","biologia","historia","geografia","educacion fisica","quimica","geometria"];
+var marcas=["nike","newbalance","vans","DC","supreme","gucci","lives","converse","skecher","lui buton"];
